@@ -23,9 +23,9 @@ Assets analyzed:
 - Frequency: Daily adjusted closing prices
 - Time period: ~10 years
 - Transformation: Log returns  
-  \[
+  $\[
   r_t = \ln\left(\frac{P_t}{P_{t-1}}\right)
-  \]
+  \]$
 
 ---
 
@@ -43,9 +43,9 @@ Captures:
 ---
 
 ### 2. EGARCH(1,1)
-\[
+$\[
 \log(\sigma_t^2) = \omega + \alpha |z_{t-1}| + \gamma z_{t-1} + \beta \log(\sigma_{t-1}^2)
-\]
+\]$
 
 Captures:
 - Volatility clustering
