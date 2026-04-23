@@ -32,9 +32,9 @@ Assets analyzed:
 ## Models Used
 
 ### 1. GARCH(1,1)
-\[
+$\[
 \sigma_t^2 = \omega + \alpha r_{t-1}^2 + \beta \sigma_{t-1}^2
-\]
+\]$
 
 Captures:
 - Volatility clustering
